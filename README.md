@@ -1,4 +1,4 @@
-# Philipps-Paper
+# Morphometric-Bone2Gene
 Hand Radiograph Morphometric Analysis
 
 This GitHub repository provides a framework for the analysis of segmented hand radiographs and the extraction of morphometric features from 19 phalangeal and metacarpal bones, based on published formulas.
