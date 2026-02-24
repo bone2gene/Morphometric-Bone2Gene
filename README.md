@@ -74,3 +74,23 @@ Comparison of individual measurements against a healthy reference population
 Integration of classical statistical analysis with machine learning
 
 Flexible extension with additional features, classifiers, or reference datasets
+
+
+
+## License
+![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
+
+This project is licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+Use of this code, models, or derived works is permitted **for non-commercial
+research and educational purposes only**, provided appropriate attribution
+is given.
+
+See the LICENSE file for full terms.
+
+## Commercial Use
+
+Commercial use of this repository is **not permitted** under the terms of the
+CC BY-NC 4.0 license.
+
