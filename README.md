@@ -9,6 +9,8 @@ Hand Radiograph Morphometric Analysis
 **Preprint (Research Square):** TBA  
 **License:** Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). Commercial use requires explicit permission from the authors. 
 
+![Morphometric Features](figures/morphometric_features.png)
+
 This GitHub repository provides a framework for the analysis of segmented hand radiographs and the extraction of morphometric features from 19 phalangeal and metacarpal bones, based on published formulas.
 
 The framework enables standardized statistical and machine-learning–based analysis of hand morphology and is designed to be modular and extensible.
@@ -17,7 +19,7 @@ Repository Overview
 
 The repository consists of three main Python programs:
 
-1. mani_analysis.py
+1. main_analysis.py
 
 Main analysis pipeline for feature extraction, normalization, and evaluation.
 This script relies on multiple helper modules located in the lib/ directory and performs the following steps:
