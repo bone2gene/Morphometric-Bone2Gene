@@ -1,5 +1,13 @@
 # Morphometric-Bone2Gene
+![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
+
 Hand Radiograph Morphometric Analysis
+
+**Repository for the code accompanying the paper:**  
+*Novel morphometric features in hand radiographs for diagnostic applications*  
+**Authors:** Philipp Schmidt, *et al.*  
+**Preprint (Research Square):** TBA  
+**License:** Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). Commercial use requires explicit permission from the authors. 
 
 This GitHub repository provides a framework for the analysis of segmented hand radiographs and the extraction of morphometric features from 19 phalangeal and metacarpal bones, based on published formulas.
 
