@@ -15,7 +15,7 @@ This GitHub repository provides a framework for the analysis of segmented hand r
 
 The framework enables standardized statistical and machine-learning–based analysis of hand morphology and is designed to be modular and extensible.
 
-Repository Overview
+## Repository Overview
 
 The repository consists of three main Python programs:
 
