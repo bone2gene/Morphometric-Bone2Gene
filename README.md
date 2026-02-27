@@ -19,7 +19,7 @@ The framework enables standardized statistical and machine-learning–based anal
 
 The repository consists of three main Python programs:
 
-1. main_analysis.py
+### 1. main_analysis.py
 
 Main analysis pipeline for feature extraction, normalization, and evaluation.
 This script relies on multiple helper modules located in the lib/ directory and performs the following steps:
@@ -42,7 +42,7 @@ Combines multiple classifiers into a multiclass soft-majority meta-classifier.
 High-Dimensional Metric
 Computes a distance-based metric (“Radius”) in feature space derived from the z-scores.
 
-2. SVM Training (One-vs-One and One-vs-Rest)
+### 2. SVM Training (One-vs-One and One-vs-Rest)
 
 This Python program trains Support Vector Machine (SVM) classifiers for all possible:
 
@@ -52,7 +52,7 @@ One-vs-Rest classification scenarios
 
 The trained models can be used independently or integrated into the meta-classification framework.
 
-3. Reference CSV Creation
+### 3. Reference CSV Creation
 
 Python script for generating a reference CSV file based on a healthy reference dataset.
 
