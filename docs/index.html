@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morphometric Bone2Gene</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+
+<body>
+  <main class="container">
+
+    <div class="hero">
+      <h1>Morphometric Bone2Gene</h1>
+
+      <p class="subtitle">
+        Novel morphometric features in hand radiographs for diagnostic application.
+      </p>
+
+      <hr>
+
+      <p class="links">
+        <a href="" target="_blank" rel="noopener noreferrer">
+          Paper [LINK TO BE ADDED]
+        </a>
+
+        <a href="https://github.com/bone2gene/Morphometric-Bone2Gene"
+           target="_blank"
+           rel="noopener noreferrer">
+          GitHub Repository
+        </a>
+
+        <a href="https://bone2gene.org/"
+           target="_blank"
+           rel="noopener noreferrer">
+          Bone2Gene Project Website
+        </a>
+      </p>
+
+      <hr>
+    </div>
+
+    <!-- Everything below stays left-aligned -->
+
+
+    <p>
+      Hand radiographs are routinely used by pediatric endocrinologists to assess bone age in children with atypical growth, pubertal or other physical maturation disorders. However, their potential for differential diagnosis of growth disorders has not been fully exploited. Here we introduce novel and well-defined morphometric measurements in hand radiographs for diagnostic applications and we demostrate their power for differentiating nine common endocrine disorders and skeletal dysplasias (achondroplasia, hypochondroplasia, X-linked hypophosphatemia, pseudohypoparathyroidism, mucopolysaccharidosis, Turner syndrome, Silver–Russell syndrome, and Noonan syndrome) from one another and from healthy controls.
+    </p>
+
+    <!-- Static figure -->
+    <figure>
+      <img src="./assets/morphometric_features.png" alt="Teaser figure">
+      <figcaption>Figure 1: Extracting morphometric features. ©2026 Philipp Schmidt/Bone2Gene.</figcaption>
+    </figure>
+
+    <hr>
+    <p>
+      UMAP projection of the 550-dimensional interpretable morphometric feature space. Each point represents a single morphometric feature embedded into two dimensions using UMAP (Manhattan distance). White points with black outlines indicate features not selected as most discriminative for any specific condition (“other features”). Colored points highlight the top discriminative features for individual disease cohorts (UA vs. SHOX, SRS, NS, XLH,  TS, HCH, MPS, PHP, and ACH), as identified in the corresponding one-vs-UA SVM models. The clustering illustrates that disease-specific features occupy distinct regions within the global feature space.UMAP visualization showed that discriminative features for achondroplasia and hypochondroplasia cluster closely together, while features associated with XLH and MPS partially overlap, whereas TS displayed a more widely distributed feature pattern
+    </p>
+
+    <!-- Plotly Figure 1 -->
+    <figure>
+      <iframe
+        src="./viz/SUP_6_umap_feature_space.html"
+        loading="lazy"
+        title="Interactive Figure 1">
+      </iframe>
+      <figcaption>
+        Figure 2: Interactive embedding. Hover and zoom to explore clusters.
+      </figcaption>
+    </figure>
+
+
+    <hr>
+    <p>
+      Interactive 2D representation of all 550 features, projected onto two dimensions using UMAP, where each point represents a feature. The points are color-coded by KMeans clusters, and the zero vector, representing a completely indifferent feature, is included as a baseline reference
+    </p>
+
+    <!-- Plotly Figure 2 -->
+    <figure>
+      <iframe
+        src="./viz/umap_features.html"
+        loading="lazy"
+        title="Interactive Figure 2">
+      </iframe>
+      <figcaption>
+        Figure 3: Performance comparison across methods.
+      </figcaption>
+    </figure>
+
+    <!-- <h2>Citation</h2>
+    <pre class="bib">
+@article{yourkey,
+  title={...},
+  author={...},
+  journal={...},
+  year={...}
+}
+    </pre> -->
+
+  </main>
+</body>
+</html>
