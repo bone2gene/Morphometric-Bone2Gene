@@ -57,8 +57,8 @@
     <hr>
 
     <figure>
-      <img src="./assets/la_dha_01369_combined.png" alt="Hand X-ray Example" style="width: 50%; display: block; margin: 0 auto;">
-      <figcaption>Figure 3: Radiograph of a young child with segmented bone masks. All 19 metacarpal and phalangeal bones are segmented, with masks shown as green overlays. Annotations are as follows: blue points = distal endpoints; red points = proximal endpoints; turquoise lines = bone axes and length; turquoise points = projections of distal and proximal endpoints; dark pink circles = ulnar border points at distal maximal width; dark pink points = radial border points at distal maximal width; light green circles = ulnar border points at proximal maximal width; light green points = radial border points at proximal maximal width; black cross = center point; blue cross = ulnar border point at center width; red cross = radial border point at center width; pink and yellow crosses = inner cortical border points.</figcaption>
+      <img src="./assets/la_dha_01369_combined.png" alt="Hand X-ray Example" loading="lazy" style="width: 50%; display: block; margin: 0 auto;">
+      <figcaption>Figure 2: Radiograph of a young child with segmented bone masks. All 19 metacarpal and phalangeal bones are segmented, with masks shown as green overlays. Annotations are as follows: blue points = distal endpoints; red points = proximal endpoints; turquoise lines = bone axes and length; turquoise points = projections of distal and proximal endpoints; dark pink circles = ulnar border points at distal maximal width; dark pink points = radial border points at distal maximal width; light green circles = ulnar border points at proximal maximal width; light green points = radial border points at proximal maximal width; black cross = center point; blue cross = ulnar border point at center width; red cross = radial border point at center width; pink and yellow crosses = inner cortical border points.</figcaption>
     </figure>
 
     <hr>
@@ -79,17 +79,25 @@
         title="Interactive Figure 1">
       </iframe>
       <figcaption>
-        Figure 2: UMAP projection of the 550-dimensional standardized high-dimensional phenotypic space for all 10 cohorts in our study. ©2026 Philipp Schmidt/Bone2Gene.
+        Figure 3: UMAP projection of the 550-dimensional standardized high-dimensional phenotypic space for all 10 cohorts in our study. ©2026 Philipp Schmidt/Bone2Gene.
       </figcaption>
     </figure>
+
+
+
+
+    <figure>
+      <img src="./assets/3_Healthy_comparisons_small.png" alt="Hand X-ray Example" loading="lazy" style="width: 100%; display: block; margin: 0 auto;">
+      <figcaption> Figure 4: Boxplots of the top-ranked features in the nine “UA vs One” scenarios. Each y-axis shows the sex- and age-adjusted z-score relative to the UA reference set. The nine scenarios compare UA images to each condition (SHOX, NS, TS, XLH, SRS, HCH, MPS, PHP, and ACH). Feature ranking was derived by summing the ROC-based rank and the t-test–based rank. Box colors indicate diagnostic groups: UA (blue), SHOX (orange), NS (teal), TS (yellow), XLH (green), SRS (red), HCH (purple), MPS (pink), PHP (brown), and ACH (grey). Benjamini-Hochberg-adjusted p-values for each pairwise comparison are shown in brackets above the box pairs.Each y-axis shows the sex- and age-adjusted z-score relative to the UA reference set. The nine scenarios compare UA images to each condition (XLH, SHOX, SRS, NS, TS, HCH, ACH, PHP, and MPS). Feature ranking was derived by summing the ROC-based rank and the t-test–based rank. Box colors indicate diagnostic groups: UA (blue), SHOX (orange), SRS (red), NS (teal), XLH (green), TS (yellow), HCH (purple), ACH (pink), PHP (brown), and MPS (gray). Benjamini-Hochberg-adjusted p-values for each pairwise comparison are shown in brackets above the box pairs. </figcaption>
+    </figure>
+
 
     <hr>
 
 
-
-
+    <h2>UMAP projection of the 550-dimensional interpretable morphometric feature space</h2>
     <p>
-      UMAP projection of the 550-dimensional interpretable morphometric feature space. Each point represents a single morphometric feature embedded into two dimensions using UMAP (Manhattan distance). White points with black outlines indicate features not selected as most discriminative for any specific condition (“other features”). Colored points highlight the top discriminative features for individual disease cohorts (UA vs. SHOX, SRS, NS, XLH,  TS, HCH, MPS, PHP, and ACH), as identified in the corresponding one-vs-UA SVM models. The clustering illustrates that disease-specific features occupy distinct regions within the global feature space.UMAP visualization showed that discriminative features for achondroplasia and hypochondroplasia cluster closely together, while features associated with XLH and MPS partially overlap, whereas TS displayed a more widely distributed feature pattern
+       Each point in Figure 5 (below) represents a single morphometric feature embedded into two dimensions using UMAP (Manhattan distance). White points with black outlines indicate features not selected as most discriminative for any specific condition (“other features”). Colored points highlight the top discriminative features for individual disease cohorts (UA vs. SHOX, SRS, NS, XLH,  TS, HCH, MPS, PHP, and ACH), as identified in the corresponding one-vs-UA SVM models. The clustering illustrates that disease-specific features occupy distinct regions within the global feature space.UMAP visualization showed that discriminative features for achondroplasia and hypochondroplasia cluster closely together, while features associated with XLH and MPS partially overlap, whereas TS displayed a more widely distributed feature pattern
     </p>
 
     <!-- Plotly Figure 2 -->
@@ -100,7 +108,7 @@
         title="Interactive Figure 1">
       </iframe>
       <figcaption>
-        Figure 2: UMAP projection of the 550-dimensional interpretable morphometric feature space.
+        Figure 5: UMAP projection of the 550-dimensional interpretable morphometric feature space.
       </figcaption>
     </figure>
 
