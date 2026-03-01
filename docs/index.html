@@ -43,7 +43,7 @@
 
     <!-- Everything below stays left-aligned -->
 
-
+    <h2>Background and Motivation</h2>
     <p>
       Hand radiographs are routinely used by pediatric endocrinologists to assess bone age in children with atypical growth, pubertal or other physical maturation disorders. However, their potential for differential diagnosis of growth disorders has not been fully exploited. Here we introduce novel and well-defined morphometric measurements in hand radiographs for diagnostic applications and we demostrate their power for differentiating nine common endocrine disorders and skeletal dysplasias (achondroplasia, hypochondroplasia, X-linked hypophosphatemia, pseudohypoparathyroidism, mucopolysaccharidosis, Turner syndrome, Silver–Russell syndrome, and Noonan syndrome) from one another and from healthy controls.
     </p>
@@ -56,8 +56,17 @@
 
     <hr>
 
+    <figure>
+      <img src="./assets/la_dha_01369_combined.png" alt="Hand X-ray Example" style="width: 50%; display: block; margin: 0 auto;">
+      <figcaption>Figure 3: Radiograph of a young child with segmented bone masks. All 19 metacarpal and phalangeal bones are segmented, with masks shown as green overlays. Annotations are as follows: blue points = distal endpoints; red points = proximal endpoints; turquoise lines = bone axes and length; turquoise points = projections of distal and proximal endpoints; dark pink circles = ulnar border points at distal maximal width; dark pink points = radial border points at distal maximal width; light green circles = ulnar border points at proximal maximal width; light green points = radial border points at proximal maximal width; black cross = center point; blue cross = ulnar border point at center width; red cross = radial border point at center width; pink and yellow crosses = inner cortical border points.</figcaption>
+    </figure>
+
+    <hr>
+
+
+    <h2>Higher-Dimensional Standardized Phenotypic Space</h2>
     <p>
-      We define and extract a total of 550 reproducible measurements across the 19 metacarpal and phalangeal bones. Figure below shows the radial projection of the 550-dimensional standardized high-dimensional phenotypic space for all 10 cohorts in our study across all three sample sets (healthy training/reference, affected training set, and test set). The radial projection uses the angular position from the UMAP for each radiographs representation relative to the zero vector (see Supplementary information Figure 2), while the radius corresponds to the r_HSPS, with the zero vector at the center where the radius equals zero. The solid circle represents the mean r_HSPS of the Unaffected (UA) reference/train set (23.03), the dashed circle indicates mean + 1 SD (26.76), and the dotted line circle represents mean + 2 SD (30.49).
+      We define and extract a total of 550 reproducible measurements across the 19 metacarpal and phalangeal bones. Figure below shows the radial projection of the 550-dimensional higher-dimensional standardized phenotypic space (HSPS) for all 10 cohorts in our study across all three sample sets (healthy training/reference, affected training set, and test set). The radial projection uses the angular position from the UMAP for each radiographs representation relative to the zero vector (see Supplementary information Figure 2), while the radius corresponds to the r_HSPS, with the zero vector at the center where the radius equals zero. The solid circle represents the mean r_HSPS of the Unaffected (UA) reference/train set (23.03), the dashed circle indicates mean + 1 SD (26.76), and the dotted line circle represents mean + 2 SD (30.49).
 
     </p>
 
@@ -94,6 +103,9 @@
         Figure 2: UMAP projection of the 550-dimensional interpretable morphometric feature space.
       </figcaption>
     </figure>
+
+
+
 
 
     <!-- <hr>
